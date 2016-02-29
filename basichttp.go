@@ -36,13 +36,13 @@ const (
   </table>`
 )
 
-// will eventually use these structs to parse and gather vip info
+//struct for terms to be used for parsing
 type vipinfo struct {
-	vipname bool
+	virtual bool
 	status  string
 	ip      bool
 	port    int
-	ltm     bool
+	f5      bool
 	pool    bool
 }
 
